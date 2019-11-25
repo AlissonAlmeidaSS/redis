@@ -8,8 +8,6 @@ public class Produto {
     private String descricao;
     private float preco;
 
-    public Produto() {
-    }
 
     public Produto(int codigo, String descricao, float preco) {
         this.codigo = codigo;

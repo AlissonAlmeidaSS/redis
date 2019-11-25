@@ -26,7 +26,7 @@ public class ProdutoDao {
     public boolean salvar(Produto produto) throws SQLException, ClassNotFoundException {
         try(Connection con = PostgresFactory.getConnection()){
             PreparedStatement stmt = con.prepareStatement(
-                    "INSERT INTO produto(descricao, preco) VALUES (?,?)");
+                    "INSERT INTO produto(codigo,descricao, preco) VALUES (?,?,?)");
 
             stmt.setString(1,produto.getDescricao());
             stmt.setFloat(2, produto.getPreco());

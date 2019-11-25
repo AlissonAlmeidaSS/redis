@@ -16,7 +16,7 @@ public class PostgresFactory {
         senha = "nqa5799";
     }
 
-    public Connection getConnection() throws ClassNotFoundException, SQLException {
+    public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Class.forName("org.postgresql.Driver");
         return DriverManager.getConnection(url, usuario, senha);
     }
