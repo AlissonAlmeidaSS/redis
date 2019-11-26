@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa131247-24f2-4602-8ecc-3983823dee6d" name="Default Changelist" comment="" />
+    <list default="true" id="fa131247-24f2-4602-8ecc-3983823dee6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proje/Exemplo-Redis-master/redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Proje/Jedis-master/jedis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../atv1/atv1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/banco/PostgresFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/banco/PostgresFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/ProdutoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/ProdutoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/view/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/banco/PostgresFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/banco/PostgresFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/dao/ProdutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/dao/ProdutoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/view/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/view/App.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +28,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1U6W3XJwZcQyyX4KI7eiYn2r0q3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -75,11 +93,26 @@
       <option name="presentableId" value="Default" />
       <updated>1574677326855</updated>
       <workItem from="1574677332464" duration="1707000" />
-      <workItem from="1574692880986" duration="3774000" />
+      <workItem from="1574692880986" duration="4423000" />
+      <workItem from="1574733152784" duration="2949000" />
+      <workItem from="1574778970033" duration="1929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

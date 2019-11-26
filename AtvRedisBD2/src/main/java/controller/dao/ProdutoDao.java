@@ -29,7 +29,8 @@ public class ProdutoDao {
                     "INSERT INTO produto(codigo,descricao, preco) VALUES (?,?,?)");
 
             stmt.setString(1,produto.getDescricao());
-            stmt.setFloat(2, produto.getPreco());
+            stmt.setString(2,produto.getDescricao());
+            stmt.setFloat(3, produto.getPreco());
 
             return stmt.executeUpdate()>0;
         }
